@@ -24,7 +24,7 @@ public class UserController {
         if (bindingResult.hasFieldErrors()) {
             return "index";
         } else {
-            model.addAttribute("user", user.getPhone());
+            model.addAttribute("user", user);
             return "result";
         }
     }

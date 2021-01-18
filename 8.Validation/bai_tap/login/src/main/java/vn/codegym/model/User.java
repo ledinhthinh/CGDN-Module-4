@@ -70,15 +70,15 @@ public class User implements Validator {
     public void validate(Object target, Errors errors) {
         User user = (User) target;
         String phone = user.getPhone();
-        ValidationUtils.rejectIfEmpty(errors, "number", "number.empty");
+        ValidationUtils.rejectIfEmpty(errors, "phone", "number.empty");
         if (phone.length()>11 || phone.length()<10){
-            errors.rejectValue("number", "number.length");
+            errors.rejectValue("phone", "number.length");
         }
         if (!phone.startsWith("0")){
-            errors.rejectValue("number", "number.startsWith");
+            errors.rejectValue("phone", "number.startsWith");
         }
         if (!phone.matches("(^$|[0-9]*$)")){
-            errors.rejectValue("number", "number.matches");
+            errors.rejectValue("phone", "number.matches");
         }
 
     }
