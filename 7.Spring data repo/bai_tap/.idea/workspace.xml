@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bc603629-07ac-455c-9b60-cb03ac060173" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../12.Ajax/thuc_hanh/phone-management/src/main/java/vn/codegym/controllers/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Ajax/thuc_hanh/phone-management/src/main/java/vn/codegym/controllers/SmartphoneController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Ajax/thuc_hanh/phone-management/src/main/java/vn/codegym/model/Smartphone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Ajax/thuc_hanh/phone-management/src/main/java/vn/codegym/repository/SmartphoneRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Ajax/thuc_hanh/phone-management/src/main/java/vn/codegym/service/SmartphoneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Ajax/thuc_hanh/phone-management/src/main/java/vn/codegym/service/SmartphoneServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Ajax/thuc_hanh/phone-management/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Ajax/thuc_hanh/phone-management/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Ajax/thuc_hanh/phone-management/src/main/resources/templates/phones/all-phones.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Ajax/thuc_hanh/phone-management/src/main/resources/templates/phones/edit-phone.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Ajax/thuc_hanh/phone-management/src/main/resources/templates/phones/new-phone.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../13.I18n/bai_tap/login/src/main/resources/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../13.I18n/thuc_hanh/i18n/src/main/java/vn/codegym/controllers/DashBoardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../13.I18n/thuc_hanh/i18n/src/main/java/vn/codegym/controllers/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../13.I18n/thuc_hanh/i18n/src/main/java/vn/codegym/request/Credential.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../13.I18n/thuc_hanh/i18n/src/main/java/vn/codegym/response/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../13.I18n/thuc_hanh/i18n/src/main/resources/i18n/message.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../13.I18n/thuc_hanh/i18n/src/main/resources/i18n/message_ha.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../13.I18n/thuc_hanh/i18n/src/main/resources/i18n/message_vi.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../13.I18n/thuc_hanh/i18n/src/main/resources/templates/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../13.I18n/thuc_hanh/i18n/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../14.Security/bai_tap/blog/src/main/java/vn/codegym/blog/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../14.Security/thuc_hanh/spring_securiy/src/main/java/vn/codegym/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../14.Security/thuc_hanh/spring_securiy/src/main/java/vn/codegym/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../14.Security/thuc_hanh/spring_securiy/src/main/resources/templates/admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../14.Security/thuc_hanh/spring_securiy/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../14.Security/thuc_hanh/spring_securiy/src/main/resources/templates/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.Data Binding &amp; Form/bai_tap/electronic_mailbox/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.Data Binding &amp; Form/bai_tap/electronic_mailbox/src/main/java/com/email/model/Email.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.Data Binding &amp; Form/bai_tap/electronic_mailbox/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.Data Binding &amp; Form/bai_tap/electronic_mailbox/src/main/webapp/WEB-INF/views/info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.Data Binding &amp; Form/thuc_hanh/login/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc_hanh/customer/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case Study/furama_resort/src/main/java/vn/codegym/model/Contract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case Study/furama_resort/src/main/java/vn/codegym/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case Study/furama_resort/src/main/java/vn/codegym/model/CustomerType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case Study/furama_resort/src/main/java/vn/codegym/model/Division.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case Study/furama_resort/src/main/java/vn/codegym/model/EducationDegree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case Study/furama_resort/src/main/java/vn/codegym/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case Study/furama_resort/src/main/java/vn/codegym/model/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Case Study/furama_resort/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3.Data Binding &amp; Form/bai_tap/electronic_mailbox/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../3.Data Binding &amp; Form/bai_tap/electronic_mailbox/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3.Data Binding &amp; Form/bai_tap/electronic_mailbox/src/main/java/com/email/controllers/EmailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../3.Data Binding &amp; Form/bai_tap/electronic_mailbox/src/main/java/com/email/controllers/EmailController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3.Data Binding &amp; Form/thuc_hanh/login/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../3.Data Binding &amp; Form/thuc_hanh/login/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6.JPA/bai_tap/blog/src/main/java/vn/codegym/blog/BlogApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../6.JPA/bai_tap/blog/src/main/java/vn/codegym/blog/BlogApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6.JPA/bai_tap/blog/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../6.JPA/bai_tap/blog/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6.JPA/bai_tap/blog/src/main/resources/templates/blog/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../6.JPA/bai_tap/blog/src/main/resources/templates/blog/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thuc_hanh/customer/.idea/artifacts/Gradle___com_codegym___customer_management_1_0_SNAPSHOT_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thuc_hanh/customer/.idea/artifacts/Gradle___com_codegym___customer_management_1_0_SNAPSHOT_war__exploded_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thuc_hanh/customer/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../thuc_hanh/customer/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thuc_hanh/customer/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../thuc_hanh/customer/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thuc_hanh/customer/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thuc_hanh/customer/.idea/modules/customer-management.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thuc_hanh/customer/.idea/modules/customer-management_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thuc_hanh/customer/.idea/modules/customer-management_test.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1nKqn9MH25uzNAu0MFXj0bsJL6X" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/blog" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc603629-07ac-455c-9b60-cb03ac060173" name="Default Changelist" comment="" />
+      <created>1611149293201</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611149293201</updated>
+      <workItem from="1611149294454" duration="43000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1611149297662">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.832@0.0.1536.832" timestamp="1611149297662" />
+    <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1611149336444">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.832@0.0.1536.832" timestamp="1611149336444" />
+  </component>
+</project>
