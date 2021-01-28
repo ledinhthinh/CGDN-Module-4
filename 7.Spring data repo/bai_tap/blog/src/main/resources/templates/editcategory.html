@@ -1,0 +1,36 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div th:replace="~{layout::daublog}"></div>
+<p>
+    Edit
+    </a>
+</p>
+</p>
+<div id="form">
+    <form  th:action="@{/updatecategory}" th:object="${categorylist}" method="post" >
+        <fieldset>
+            <legend>Blog</legend>
+
+            <div>
+                <input type="hidden" th:field="*{idCategory}"/>
+                <label>Name</label>
+                <input type="text" th:field="*{nameCategory}">
+                <br><br>
+
+                </div>
+
+            <input type="submit" value="save">
+        </fieldset>
+
+
+    </form>
+</div>
+
+
+</body>
+</html>

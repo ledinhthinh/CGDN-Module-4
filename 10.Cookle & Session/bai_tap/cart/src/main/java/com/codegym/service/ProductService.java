@@ -7,11 +7,11 @@ import java.util.List;
 public interface ProductService {
     List<Product> findAll();
 
+    void save(Product product);
+
     Product findById(Integer id);
 
-    void save (Product product);
+    void update(Integer id, Product product);
 
-    void update (Product product);
-
-    void delete (Integer id);
+    void remove(Integer id);
 }

@@ -1,0 +1,39 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<div th:replace="~{layout::daublog}"></div>
+
+<body>
+<!--<div th:replace="~{layout::dausp}"></div>-->
+<p>
+
+    DELETE CATEGORY
+
+</p>
+</p>
+<div id="form">
+    <form  th:action="@{/deletecategory}" th:object="${categorylist}" method="post" novalidate="novalidate">
+        <fieldset>
+            <legend>BLOG</legend>
+
+            <div>
+                <input type="hidden" th:field="*{idCategory}"/>
+                <label>Name</label>
+                <input type="text" th:field="*{nameCategory}">
+                <br><br>
+                <br>
+                <br>
+            </div>
+            <input type="submit" value="delete">
+        </fieldset>
+
+
+    </form>
+</div>
+
+
+</body>
+</html>

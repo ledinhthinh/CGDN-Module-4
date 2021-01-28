@@ -1,0 +1,52 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<div th:replace="~{layout::daublog}"></div>
+
+<body>
+<!--<div th:replace="~{layout::dausp}"></div>-->
+<p>
+
+    DELETE
+
+</p>
+</p>
+<div id="form">
+    <form  th:action="@{/delete}" th:object="${blogentitys}" method="post" novalidate="novalidate">
+        <fieldset>
+            <legend>BLOG</legend>
+
+            <div>
+                <input type="hidden" th:field="*{id}"/>
+                <label>Name</label>
+                <input type="text" th:field="*{nameBlog}">
+                <br><br>
+                <label>Descrribe</label>
+                <input type="text" th:field="*{describe_blog}">
+                <br><br>
+                <label>UseBolog</label>
+                <textarea  type="text" th:field="*{use_blog}"></textarea>
+
+                <br><br>
+                <label>Lock Day</label>
+                <input type="date" th:field="*{dateOfManufacture}">
+
+                <br>
+                <br>
+                <span>img</span>
+
+                <div>   <img style="width: 30px;height: 30px" th:src="'/'+${blogentitys.getImg_blog()}" alt=""> </div>
+            </div>
+            <input type="submit" value="delete">
+        </fieldset>
+
+
+    </form>
+</div>
+
+
+</body>
+</html>

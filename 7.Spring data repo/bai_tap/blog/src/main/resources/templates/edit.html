@@ -1,0 +1,53 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div th:replace="~{layout::daublog}"></div>
+<p>
+   Edit
+    </a>
+</p>
+</p>
+<div id="form">
+    <form th:action="@{/update}" th:object="${blogentitys}" method="post" >
+        <fieldset>
+            <legend>Blog</legend>
+
+            <div>
+                <input type="hidden" th:field="*{id}"/>
+                <label>Name</label>
+                <input type="text" th:field="*{nameBlog}">
+                <br><br>
+                <label>Descrribe</label>
+                <input type="text" th:field="*{describe_blog}">
+                <br><br>
+                <label>UseBolog</label>
+                <textarea  type="text" th:field="*{use_blog}"></textarea>
+
+                <br><br>
+                <label>Lock Day</label>
+                <input type="date" th:field="*{dateOfManufacture}">
+
+                <br>
+                <br>
+                <span>img</span>
+
+                <div>   <img style="width: 50px;height: 50px" th:src="'/'+${blogentitys.getImg_blog()}" alt=""> </div>
+                <div class="form-group">
+                    <label for="exampleFormControlFile1">Example file input</label>
+                    <input th:field="${blogentitys.img_blog}" type="file" class="form-control-file" id="exampleFormControlFile1">
+                </div>
+            </div>
+            <input type="submit" value="save">
+        </fieldset>
+
+
+    </form>
+</div>
+
+
+</body>
+</html>

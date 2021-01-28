@@ -1,0 +1,34 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<!--<div th:replace="~{layout::daublog}"></div>-->
+<body>
+<!--<div th:replace="~{layout::dausp}"></div>-->
+<p>
+    add
+</p>
+</p>
+<div id="form">
+    <form action="#" th:action="@{/savecategory}" th:object="${categorylist}" method="post">
+        <fieldset>
+            <legend>Blog</legend>
+
+            <div>
+                <input type="hidden" th:field="*{idCategory}"/>
+                <label>Name</label>
+                <input type="text" th:field="*{nameCategory}">
+                <br><br>
+
+            </div>
+            <input type="submit" value="save">
+        </fieldset>
+    </form>
+</div>
+
+
+
+</body>
+</html>

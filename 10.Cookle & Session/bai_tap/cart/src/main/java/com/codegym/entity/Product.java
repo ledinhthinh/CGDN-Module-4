@@ -5,16 +5,27 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-@Entity(name = "product")
+@Entity
 public class Product {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
-    private String nameProduct;
-    private String quantity;
-    private String maker ;
+    private String name;
+    private String color;
+    private Integer price;
+    private Integer quantity;
+    private String manufacturer;
 
     public Product() {
+    }
+
+    public Product(Integer id, String name, String color, Integer price, Integer quantity, String manufacturer) {
+        this.id = id;
+        this.name = name;
+        this.color = color;
+        this.price = price;
+        this.quantity = quantity;
+        this.manufacturer = manufacturer;
     }
 
     public Integer getId() {
@@ -25,27 +36,43 @@ public class Product {
         this.id = id;
     }
 
-    public String getNameProduct() {
-        return nameProduct;
+    public String getName() {
+        return name;
     }
 
-    public void setNameProduct(String nameProduct) {
-        this.nameProduct = nameProduct;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public String getQuantity() {
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public Integer getPrice() {
+        return price;
+    }
+
+    public void setPrice(Integer price) {
+        this.price = price;
+    }
+
+    public Integer getQuantity() {
         return quantity;
     }
 
-    public void setQuantity(String quantity) {
+    public void setQuantity(Integer quantity) {
         this.quantity = quantity;
     }
 
-    public String getMaker() {
-        return maker;
+    public String getManufacturer() {
+        return manufacturer;
     }
 
-    public void setMaker(String maker) {
-        this.maker = maker;
+    public void setManufacturer(String manufacturer) {
+        this.manufacturer = manufacturer;
     }
 }
